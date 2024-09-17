@@ -121,3 +121,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+AUTH_USER_MODEL = 'profiels_api.UserProfile'
+# go to profile_api app and find a model UserProfile and this will be used to authontication and users registration for our project.
+ 
